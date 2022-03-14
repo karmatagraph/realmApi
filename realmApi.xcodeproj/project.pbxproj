@@ -15,6 +15,9 @@
 		483E9A2C27DF1AC500FBAE31 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 483E9A2A27DF1AC500FBAE31 /* LaunchScreen.storyboard */; };
 		483E9A3527DF20FF00FBAE31 /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = 483E9A3427DF20FF00FBAE31 /* Realm */; };
 		483E9A3727DF20FF00FBAE31 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 483E9A3627DF20FF00FBAE31 /* RealmSwift */; };
+		483E9A3927DF245200FBAE31 /* Faketodos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 483E9A3827DF245200FBAE31 /* Faketodos.swift */; };
+		483E9A3C27DF251D00FBAE31 /* Todos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 483E9A3B27DF251D00FBAE31 /* Todos.swift */; };
+		483E9A3E27DF4E7E00FBAE31 /* TodoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 483E9A3D27DF4E7E00FBAE31 /* TodoTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,9 @@
 		483E9A2827DF1AC500FBAE31 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		483E9A2B27DF1AC500FBAE31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		483E9A2D27DF1AC500FBAE31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		483E9A3827DF245200FBAE31 /* Faketodos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Faketodos.swift; sourceTree = "<group>"; };
+		483E9A3B27DF251D00FBAE31 /* Todos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Todos.swift; sourceTree = "<group>"; };
+		483E9A3D27DF4E7E00FBAE31 /* TodoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +73,9 @@
 				483E9A2827DF1AC500FBAE31 /* Assets.xcassets */,
 				483E9A2A27DF1AC500FBAE31 /* LaunchScreen.storyboard */,
 				483E9A2D27DF1AC500FBAE31 /* Info.plist */,
+				483E9A3827DF245200FBAE31 /* Faketodos.swift */,
+				483E9A3B27DF251D00FBAE31 /* Todos.swift */,
+				483E9A3D27DF4E7E00FBAE31 /* TodoTableViewCell.swift */,
 			);
 			path = realmApi;
 			sourceTree = "<group>";
@@ -151,6 +160,9 @@
 			files = (
 				483E9A2427DF1AC200FBAE31 /* ViewController.swift in Sources */,
 				483E9A2027DF1AC200FBAE31 /* AppDelegate.swift in Sources */,
+				483E9A3927DF245200FBAE31 /* Faketodos.swift in Sources */,
+				483E9A3E27DF4E7E00FBAE31 /* TodoTableViewCell.swift in Sources */,
+				483E9A3C27DF251D00FBAE31 /* Todos.swift in Sources */,
 				483E9A2227DF1AC200FBAE31 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
